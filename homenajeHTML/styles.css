@@ -1,4 +1,6 @@
-
+*{
+    box-sizing:border-box;
+}
 html{
     font-size: 1em;
 }
@@ -22,7 +24,7 @@ body{
     max-width: 96%;
     overflow: hidden;
 }
-#img{
+#image{
     max-width: 90%;
     display: flex;
     justify-content: center;;
