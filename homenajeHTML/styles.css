@@ -1,9 +1,6 @@
-
-
 html{
     font-size: 1.6rem;
 }
-
 body{
     margin: 0;
     padding: 0;
@@ -15,15 +12,14 @@ body{
     background-color: #e5e0c5;
 
 }
-
 #main{
-    max-width: 1000px;
+    max-width: 85%;
     margin: 0px auto;
     padding: 0;
     height: 100%;
-    background-color: #e2ddc1;
+    background-color: #dbd4af;
+    border-radius: 7px;
 }
-
 #title, p{
     margin: 2em auto;
     width: 100%;
@@ -31,33 +27,59 @@ body{
     justify-content: center;
     text-align: center;
 }
-
 #title{
     padding-top: 0.5em;
 }
 #img-div{
-    max-width: 96%;
+    background-color: aliceblue;
+    width: 100%;
+    margin: 5px 0;
+    vertical-align: middle;
     overflow: hidden;
 }
 #image{
     max-width: 100%;
-    display: flex;
-    justify-content: center;;
-    flex-wrap: wrap;
-    margin: 0.5em auto;
+    display: block;
     object-fit: cover;
+    height: auto;
 }
-/*ul>li{
-    max-width: 500px;*
-}*/
-/*p, h3, h2{
-    max-width: 600px;*/
-
 #tribute-info{
     margin: 5px auto;
     width: 80%;
 }
-h2{
+h2, h3{
     width: 100%;
-    margin: 4px auto;
+    margin: 2em auto;
+}
+h3{
+    display: block;
+    padding-bottom: 2em;
+}
+img{
+    display: block;
+    width: 87%;
+    height: 80%;
+    margin: 1em auto;  
+    border-radius: 5px;
+}
+#img-caption{
+    width: 100%;
+    margin: 1em auto;
+    font-size: 1em;
+}
+li{
+    text-align: justify;
+    width: 70%;
+    margin: 2em auto;
+}
+blockquote, blockquote p{
+    text-align: justify;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+    color: burlywood;
 }
